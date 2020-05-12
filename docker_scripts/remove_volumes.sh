@@ -24,4 +24,6 @@ echo -e "${YELLOW}Removendo container...${NC}"
 docker-compose rm -f
 echo -e "${YELLOW}Removendo volumes ...${NC}"
 docker volume rm postgres_pgsqlconf postgres_pgsqldata postgres_pgsqldblogs postgres_pgadmin4sessiondata postgres_pgadmin4conf postgres_pgadmin4serverdefinitions
+docker network rm postgres_netdbpgsql
 docker volume ls
+docker network ls
