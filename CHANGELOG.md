@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/danielso2007/postgres_with_pgadmin4_using_docker/compare/v0.1.0...v0.2.0) (2020-05-12)
+
+
+### Features
+
+* Removendo o network do container. ([6a647e0](https://github.com/danielso2007/postgres_with_pgadmin4_using_docker/commit/6a647e074f782a2148e7b57af9a456a3baa89e05))
+
 ## 0.1.0 (2020-04-29)
 
 
