@@ -1,7 +1,7 @@
-version: "3.7"
+version: "3.9"
 services:
   pgsql:
-    image: "postgres:12.2-alpine"
+    image: "postgres:14-alpine3.15"
     container_name: "pgsql"
     restart: always
     environment:
@@ -18,7 +18,7 @@ services:
       - netdbpgsql
   
   pgadmin4:
-    image: dpage/pgadmin4:latest
+    image: dpage/pgadmin4:6
     container_name: pgadmin4
     restart: always
     environment:
